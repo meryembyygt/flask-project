@@ -4,7 +4,7 @@ from matplotlib.pyplot import title
 
 
 app = Flask(__name__)
-app.config['MONGO_URI']='mongodb+srv://meryem2:Mb12345.@cluster0.x7wyu.mongodb.net/todolist?retryWrites=true&w=majority'
+app.config['MONGO_URI']='mongodb+srv://<username>:<password>@cluster0.x7wyu.mongodb.net/todolist?retryWrites=true&w=majority'
 mongo = PyMongo(app)
 
 
